@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wicotiz Intro</title>
+
+    <link rel="stylesheet" href="css/color_style.css"> <!-- Resource style -->
+    <script src="https://use.typekit.net/vkr6wvx.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+
+  </head>
+  <body>
+    <div class="swiper-container">
+  			 <div class="swiper-wrapper">
+  				 <div class="swiper-slide" style="background-color: #e71f74">
+             <img src="img/color_create_events.png" alt="create events">
+             <div class="swiper-wrapper-content">
+               <h1>Create Events</h1>
+               <p>Create an event, and keep up-to-date with your friends, <br>
+                 See when your friends are paying for a "collecting event"
+              </p>
+             </div>
+           </div>
+           <div class="swiper-slide" style="background-color: #aa1e73">
+             <img src="img/color_invite_friends.png" alt="invite friends">
+             <div class="swiper-wrapper-content">
+               <h1>Invite friends</h1>
+               <p>Add friends to your friendlist, <br>
+                  See in your phone contacts who else is using Wicotiz
+              </p>
+             </div>
+           </div>
+           <div class="swiper-slide" style="background-color: #b61c74">
+             <img src="img/color_request_card.png" alt="request card">
+             <div class="swiper-wrapper-content">
+               <h1>Request your Wicotiz card</h1>
+               <p>With the Wicotiz card you can receive and send remittances directly on card,
+                 With the card you can save 2% when you are "collecting" for an event.
+                 This for only € 18,00 a year!
+              </p>
+             </div>
+           </div>
+           <div class="swiper-slide" style="background-color: #2d2c55">
+             <img src="img/color_send_money.png" alt="send money">
+             <div class="swiper-wrapper-content">
+               <h1>Send money to other users</h1>
+               <p>Send money to anyone using just theirphone number, <br>
+                 Like or comment on transactions.
+              </p>
+             </div>
+           </div>
+  			 </div>
+  			 <!-- Add Pagination -->
+  			 <div class="swiper-pagination swiper-pagination-white"></div>
+  			 <!-- Add Arrows -->
+  			 <div class="swiper-button-next swiper-button-white"></div>
+  			 <div class="swiper-button-prev swiper-button-white"></div>
+  	 </div>
+  	 <script>
+   		 var swiper = new Swiper('.swiper-container', {
+   				 pagination: '.swiper-pagination',
+   				 paginationClickable: true,
+   				 nextButton: '.swiper-button-next',
+   				 prevButton: '.swiper-button-prev',
+   				 spaceBetween: 0,
+  				 centeredSlides: true,
+           autoplay: 3500,
+           autoplayDisableOnInteraction: false,
+  				 loop: true
+   		 });
+   		 </script>
+  </body>
+</html>
